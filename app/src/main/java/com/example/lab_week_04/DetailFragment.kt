@@ -40,16 +40,16 @@ class DetailFragment : Fragment() {
     fun setCoffeeData(id: Int){
         when(id){
             R.id.affogato -> {
-                coffeeTitle?.text = getString(R.string.affogato_title)
-                coffeeDesc?.text = getString(R.string.affogato_desc)
+                coffeeTitle?.text = getString(R.string.starbucks_title)
+                coffeeDesc?.text = getString(R.string.starbucks_desc)
             }
             R.id.americano -> {
-                coffeeTitle?.text = getString(R.string.americano_title)
-                coffeeDesc?.text = getString(R.string.americano_desc)
+                coffeeTitle?.text = getString(R.string.janjijiwa_title)
+                coffeeDesc?.text = getString(R.string.janjijiwa_desc)
             }
             R.id.latte -> {
-                coffeeTitle?.text = getString(R.string.latte_title)
-                coffeeDesc?.text = getString(R.string.latte_desc)
+                coffeeTitle?.text = getString(R.string.kopikenangan_title)
+                coffeeDesc?.text = getString(R.string.kopikenangan_desc)
             }
         }
     }
